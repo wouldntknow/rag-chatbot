@@ -1,0 +1,27 @@
+# UI
+chainlit>=2.11
+
+# Agent framework + Gemini (via its OpenAI-compatible endpoint)
+openai
+openai-agents
+
+# Embeddings
+google-genai
+
+# RAG pipeline
+langchain-core
+langchain-community
+langchain-text-splitters
+langchain-chroma
+chromadb
+
+# Document loaders (PDF, DOCX; TXT uses langchain-community's TextLoader)
+langchain-pdfmuse
+docx2txt
+
+# Config
+python-dotenv
+
+# Login + two-factor authentication
+pyotp
+qrcode
